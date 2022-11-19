@@ -1,4 +1,4 @@
-
+#!/bin/sh
 CreateBook(){ 
 	echo 
 		if [ -e addressbook.txt ] 

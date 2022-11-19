@@ -79,6 +79,6 @@ int main()
         }
         // Call to execve...
         execve("./reverse", str_arr, NULL);
-        printf("EXECVE not called..!!");
+        printf("EXECVE not called!");
     }
 }

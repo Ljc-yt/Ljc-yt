@@ -1,0 +1,7 @@
+{
+  "files.associations": {
+    "*.html": "html",
+    "*.dart": "dart",
+    "stdio.h": "c"
+  }
+}
