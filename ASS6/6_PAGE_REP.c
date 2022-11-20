@@ -36,19 +36,6 @@ int isHit(int data)
     }
     return hit;
 }
-int getHitIndex(int data)
-{
-    int hitind;
-    for (k = 0; k < nf; k++)
-    {
-        if (p[k] == data)
-        {
-            hitind = k;
-            break;
-        }
-    }
-    return hitind;
-}
 void dispPages()
 {
     for (k = 0; k < nf; k++)
@@ -57,6 +44,7 @@ void dispPages()
             printf(" %d", p[k]);
     }
 }
+
 void dispPgFaultCnt()
 {
     printf("\nTotal no of page faults: %d", pgfaultcnt);
