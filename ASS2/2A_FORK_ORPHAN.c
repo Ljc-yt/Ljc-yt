@@ -71,10 +71,13 @@ int main()
         printf("Child process with id %d\n", getpid());
         quick(arr, 0, n - 1);
         printArr(arr, n);
+        printf("Child process terminated\n");
     }
     else
     {
         printf("Parent process with id %d\n", getpid());
+        quick(arr, 0, n - 1);
+        printf("Parent process terminated\n");
     }
 
     return 0;
